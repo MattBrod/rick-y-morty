@@ -8,13 +8,17 @@ import { ElementsModule } from './elements/elements.module';
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { CreateComponent } from './create/create.component';
+import { DeleteComponent } from './delete/delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharactersComponent,
     AboutComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    CreateComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
