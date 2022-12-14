@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Personaje } from './models/personaje.model';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RickapiService {
 
-  private url = 'http://localhost:3000/characters';
+  private url = 'https://rickandmortyapi.com/api/character/1,2,3,4,5,6';
 
   constructor(private httpClient: HttpClient) { }
 
